@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Cardo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap");
+
+:root {
+  --backgroundColor: #262626;
+  --textColor: #f2f2f2;
+  --buttonHoverColor: #f24405;
+
+  --headingFont: "Cardo", serif;
+  --textFont: "Catamaran", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--backgroundColor);
+  color: var(--textColor);
+
+  text-align: center;
+  font-family: var(--textFont);
+
+  margin: 2rem;
+}
+
+h1 {
+  font-family: var(--headingFont);
+}
+
+header {
+  margin: 1rem 0rem 2rem 0rem;
+}
+
+section {
+  width: 20rem;
+  margin: 4rem auto 1rem auto;
+}
+
+label,
+input {
+  display: block;
+  margin: 0.25rem auto;
+  text-align: left;
+
+  font-size: 1.25rem;
+}
+
+label {
+  margin: 0rem 0rem 3rem 0rem;
+}
+
+input {
+  min-width: 100%;
+  border-radius: 5px;
+  padding: 0.5rem;
+
+  outline: none;
+}
+
+input[type="submit"] {
+  min-width: fit-content;
+  border: 1px solid var(--textColor);
+  background-color: transparent;
+  color: var(--textColor);
+
+  padding: 0.5rem 1.25rem;
+
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+input[type="submit"]:hover {
+  background-color: var(--buttonHoverColor);
+  border-color: var(--buttonHoverColor);
+}
+
+#result {
+  font-size: 1.25rem;
+  margin: 2rem 0rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 3rem 0rem;
+}
+
+footer > a {
+  color: var(--buttonHoverColor);
+  text-decoration: none;
+}
+footer > a:hover {
+  color: var(--textColor);
+}
