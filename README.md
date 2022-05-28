@@ -2,6 +2,10 @@
 
 An app to check whether the number selected by the user is a lucky number or not
 
+
+## Live Project
+![Link to live Project](https://lucky-birthday-mark-11-tejas.netlify.app/)
+
 ## Preview
 
 ![App screenhot](./preview.png)
