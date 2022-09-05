@@ -1,4 +1,4 @@
-# luckyBirthday_mark11
+# Mark-11: Lucky Birthday
 
 An app to check whether the number selected by the user is a lucky number or not
 
